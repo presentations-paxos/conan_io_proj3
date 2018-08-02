@@ -9,7 +9,7 @@ namespace proj3 {
     }
 }
 
-int main(const int argc, char const * const argv[]) {
-    std::cout << hello_goodbye("Austin");
+int main(int, char* []) {
+    std::cout << proj3::hello_goodbye("Austin");
     return 0;
 }
