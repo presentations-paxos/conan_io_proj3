@@ -1,7 +1,7 @@
 from conans import ConanFile, CMake
 import os
 
-class Proj1Conan(ConanFile):
+class Proj3Conan(ConanFile):
     name = os.environ['PROJ3_NAME']
     version = os.environ['PROJ3_VER']
 
