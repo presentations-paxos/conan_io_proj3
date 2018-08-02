@@ -1,5 +1,4 @@
 MAKE_EXECUTABLE(proj3
 	DEPENDENCIES	
-		CONAN_PKG::proj1
-        CONAN_PKG::proj2
+		${CONAN_LIBS}
 )
