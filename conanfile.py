@@ -1,9 +1,8 @@
 from conans import ConanFile, CMake
-import os
 
 class Proj3Conan(ConanFile):
-    name = os.environ['PROJ3_NAME']
-    version = os.environ['PROJ3_VER']
+    # name = proj3 
+    # version = 0.0.1 
 
     license = "Public Domain"
     url = "http://gitlab:8080/demo/proj3"
