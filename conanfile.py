@@ -1,7 +1,7 @@
 from conans import ConanFile, CMake
 
 class Proj3Conan(ConanFile):
-    # name = proj3 
+    name = "proj3"
     # version = 0.0.1 
 
     license = "Public Domain"
